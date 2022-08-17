@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    /* border:0; */
+}
+@font-face {
+    font-family: 'menu';
+    src: url(fontes/CaviarDreams.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'compra';
+    src: url(fontes/KGRedHands.ttf) format('truetype') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    width: 100%;
+
+}
+
+.vertical {
+    border-left: 1px solid snow;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.header{
+    font-family: 'menu', sans-serif;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.menu{
+    overflow: hidden;
+    background-color: rgb(32, 60, 60);
+}
+
+.menu a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: snow;
+    color: aquamarine;  
+    transition: 450ms;
+}
+
+h2{
+    text-align: center;
+    font-family: 'compra', Times, serif;
+    margin-bottom: 50px;
+    margin-top: 65px;
+}
+.container hr {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-top: 15px;
+}
+.divisao {
+    padding-bottom: 20px;   
+}
+.catalogo {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.catalogo img {
+    width: 250px;
+    height: 230px;
+    border-radius: 80%;
+}
+
+.tenis {
+    font-style: bold;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin-bottom: 5px;
+}
+.descrição{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+}
+.promo{
+    border: 1px dashed brown;
+    background-color: brown;
+    border-radius: 8px;
+    color: rgb(233, 229, 229);
+    font-size: 16px;
+    text-decoration: line-through;
+    font-family: 'Courier New', Courier, monospace;
+    width: max-content;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.exclusivo{
+    margin-top: 20px;
+    margin-bottom: 15px;    
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: darkgoldenrod;
+}
+footer{
+    padding-top: 2%;
+}
+.info {
+    background-color: rgb(32, 60, 60);
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+    font-size: 17px;
+    width: 100%;
+    height: 100%;
+
+}
+#siganos {
+    display: flex;
+    justify-content: center;
+}
+.info h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding-top: 20px;
+}
+.redes {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.redes:hover {
+    color: aquamarine;
+}
+.info ul {
+    margin-left: 1.75%;
+}
+.Login {
+    border: dashed 1px rgb(32, 60, 60);
+}
+.Login h2 {
+    font-size: 22px;
+}
+#redes {
+    text-align: justify;
+}
+#copy {
+    padding-top: 2%;
+    text-align: center; 
+    padding-bottom: 10px;
+}
+
+hr {
+    margin-top: 2%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
